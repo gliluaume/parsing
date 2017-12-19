@@ -14,15 +14,13 @@ function parse(dom) {
 }
 
 function arrayzer(node) {
-  return Array.prototype.slice.apply(node)
+  return Array.prototype.slice.apply(node);
 }
-
 
 function MyObj(str) {
   this.name = str;
 }
 
-MyObj.prototype.toString = function rToString()
-{
-    return this.name.toString();
-}
+MyObj.prototype.toString = function () {
+  return this.name.toString();
+};
